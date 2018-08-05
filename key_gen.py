@@ -5,6 +5,13 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PrivateKey
 from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+from cryptography.hazmat.primitives.asymmetric.x25519 import X25519PublicKey 
+##### ^ Need this to generate an elliptic-curve-compatible public key.
+import cryptography.hazmat.primitives.asymmetric.dsa 
+##### ^ To digitally sign messages
+##### Both X25519PrivateKey and X25519PublicKey call the backend class with 
+##### from cryptography.hazmat.backends.openssl.backend import backend 
+##### Is this library or class vulnerable to any known OpenSSL vulnerabilities?
 
 # def RSA_private_key():
 #   return rsa.generate_private_key(
@@ -16,8 +23,18 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 def private_key():
   return X25519PrivateKey.generate()
 
+def public_key():
+  return X25519PublicKey.generate()
+##### ^ Generate an EC-compatible public key.  
+
 def get_shared_key(privKey, peerPubKey):
   return privKey.exchange(peerPubKey)
+#####
+##### def get_private_DSA_key(prime_modulus):
+#####  return DSAParameters(self)
+##### ^ Returns a DSA private key
+##### https://cryptography.io/en/latest/_modules/cryptography/hazmat/primitives/asymmetric/dsa/#generate_private_key
+
 
 #derivation function: HKDF
 #https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/?highlight=HKDF#cryptography.hazmat.primitives.kdf.hkdf.HKDF
