@@ -1,5 +1,5 @@
 #CipherText
-# MK Solution
+# MK Solution, Pending Prototype
 
 How to run this application:  
 https://github.com/msyinmei/CipherText 
