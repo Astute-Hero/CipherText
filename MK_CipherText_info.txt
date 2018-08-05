@@ -1,1 +1,3 @@
-The MK Solution is an authenticated encryption scheme used in CipherText to ensure secure SMS messaging. The proof-of-concept will be added soon. Note that the implementation here of the MK Solution is a pending prototype.
+The MK Solution is an authenticated encryption scheme used in CipherText to ensure secure SMS messaging.
+The proof-of-concept will be added soon. 
+Note that the implementation here of the MK Solution is a pending prototype.
