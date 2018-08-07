@@ -1,0 +1,3 @@
+CipherText is a pending prototype that provides secure SMS messaging. It is based on the MK Solution (MKS). 
+MKS claims to be an efficient, authenticated encryption scheme.
+The proof-of-concept will be added soon. 
