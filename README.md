@@ -1,8 +1,8 @@
 # CipherText, Python 3 implementation
 
-
 [CipherText-AH source code](https://github.com/Astute-Hero/CipherText-AH) 
 
+[Click here for CipherText in Python 2](https://github.com/msyinmei/CipherText)
 
 ###Git Fork & Clone
 1. [Set up your SSH Key](https://help.github.com/articles/connecting-to-github-with-ssh/) if you'd like to contribute to this code and have been invited as a collaborator   
