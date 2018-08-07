@@ -1,4 +1,4 @@
-#Python 3 implementation of CipherText, an application based on the MK Solution.
+#Python 3 implementation of CipherText
 
 
 CipherText-AH source code:  
@@ -20,11 +20,11 @@ https://help.github.com/articles/connecting-to-github-with-ssh/
 ```git status```
 
 
-###Install Dependencies:  
-Make sure ```pip``` is updated:  
+###Install Dependencies 
+1. Make sure ```pip``` is updated:  
 ```pip3 install --upgrade pip```
 
-Run the following commands to install the following dependencies:  
+2. Run these commands to install the following dependencies:  
 The [cryptography] module (https://cryptography.io/en/latest/):  
 ```pip3 install cryptography```
   
@@ -32,11 +32,11 @@ The [Twilio] module (https://www.twilio.com/docs/libraries/python):
 ```pip3 install twilio```  
 
 
-###How to run the main program:  
+###How to run the main program  
 ```cd CipherText-AH```  
 ```python3 main.py```
 
 
-###How to run Twilio:
+###How to run Twilio
 1. Rename AUTHKEY_TEMPLATE.py to AUTHKEYS.py and enter your own credentials
 2. Run ```python3 twilio_sms.py```
