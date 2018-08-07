@@ -1,4 +1,4 @@
-#**CipherText, Astute-Hero's Python 3 implementation**
+# CipherText, Python 3 implementation
 
 
 [CipherText-AH source code](https://github.com/Astute-Hero/CipherText-AH) 
@@ -38,4 +38,5 @@
 
 ###How to run Twilio
 1. Rename AUTHKEY_TEMPLATE.py to AUTHKEYS.py and enter your own credentials
-2. Run ```python3 twilio_sms.py```
+2. Run  
+```python3 twilio_sms.py```
