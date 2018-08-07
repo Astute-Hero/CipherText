@@ -1,4 +1,4 @@
-# CipherText, Python 3 implementation
+# Astute-Hero's version of CipherText, Python 3
 
 [CipherText-AH source code](https://github.com/Astute-Hero/CipherText-AH) 
 
