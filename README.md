@@ -6,7 +6,7 @@ https://github.com/Astute-Hero/CipherText-AH
 
 
 ###Git Fork & Clone
-1. Make sure that you've set up your SSH Key if you'd like to contribute to this code and have been invited as a collaborator:   
+1. Set up your SSH Key if you'd like to contribute to this code and have been invited as a collaborator:   
 https://help.github.com/articles/connecting-to-github-with-ssh/ 
 2. To copy the file into your local system, open the Terminal and run the following commands:  
 ```cd```  
