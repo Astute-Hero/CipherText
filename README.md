@@ -1,13 +1,12 @@
-#Python 3 implementation of CipherText
+#CipherText, Astute-Hero's Python 3 implementation
 
 
-CipherText-AH source code:  
-https://github.com/Astute-Hero/CipherText-AH 
+[CipherText-AH source code](https://github.com/Astute-Hero/CipherText-AH) 
 
 
 ###Git Fork & Clone
-1. Set up your SSH Key if you'd like to contribute to this code and have been invited as a collaborator:   
-https://help.github.com/articles/connecting-to-github-with-ssh/ 
+1. [Set up your SSH Key](https://help.github.com/articles/connecting-to-github-with-ssh/) if you'd like to contribute to this code and have been invited as a collaborator   
+ 
 2. To copy the file into your local system, open the Terminal and run the following commands:  
 ```cd```  
 ```cd Documents```  
@@ -25,10 +24,9 @@ https://help.github.com/articles/connecting-to-github-with-ssh/
 ```pip3 install --upgrade pip```
 
 2. Run these commands to install the following dependencies:  
-The [cryptography] module (https://cryptography.io/en/latest/):  
-```pip3 install cryptography```
-  
-The [Twilio] module (https://www.twilio.com/docs/libraries/python):  
+* [Cryptography](https://cryptography.io/en/latest/)   
+```pip3 install cryptography```  
+* [Twilio](https://www.twilio.com/docs/libraries/python)  
 ```pip3 install twilio```  
 
 
