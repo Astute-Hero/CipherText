@@ -1,4 +1,4 @@
-#CipherText, Astute-Hero's Python 3 implementation
+#**CipherText, Astute-Hero's Python 3 implementation**
 
 
 [CipherText-AH source code](https://github.com/Astute-Hero/CipherText-AH) 
@@ -30,7 +30,8 @@
 ```pip3 install twilio```  
 
 
-###How to run the main program  
+###How to run the main program 
+
 ```cd CipherText-AH```  
 ```python3 main.py```
 
